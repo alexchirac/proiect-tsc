@@ -10,14 +10,15 @@ This document outlines the key hardware components used in the system, including
 
 ## 📑 Table of Contents
 
-- [Main Controller](#-main-controller)
-- [Display System](#-display-system)
-- [Power](#-power-management)
-- [Memory and Storage](#-memory-and-storage)
-- [Sensors](#-sensors-and-timing)
-- [Connectivity](#-connectivity)
+- [Main Controller](#main-controller)
+- [Display System](#display-system)
+- [Power](#power)
+- [Memory and Storage](#memory-and-storage)
+- [Sensors](#sensors)
+- [Connectivity](#connectivity)
 - [Block diagram](#block-diagram)
 - [Pin Assignments](#pin-assignments)
+- [Bill of Materials](#bill-of-materials)
 
 ---
 
@@ -170,8 +171,8 @@ This document outlines the key hardware components used in the system, including
  | 744043680IND_4828-WE-TPC_WRE | 1 | https://eu.mouser.com/ProductDetail/Wurth-Elektronik/744043680?qs=PGXP4M47uW6VkZq%252BkzjrHA%3D%3D | 
  | BD5229G-TR | 1 | https://componentsearchengine.com/part-view/BD5229G-TR/ROHM%20Semiconductor | 
  | BUTTON_CUSYOMV1PACKAGE | 3 | https://www.snapeda.com/parts/EVQP7L01P/Panasonic/view-part/?ref=search&t=evqp7l | 
- | CPH3225A | 1 | https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=562593&manufacturer=Seiko Instruments&part_name=CPH3225A&search_term=None | 
- | DS3231SN# | 1 | https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=99048&manufacturer=Analog Devices&part_name=DS3231SN#&search_term=None | 
+ | CPH3225A | 1 | https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=562593&manufacturer=Seiko%20Instruments&part_name=CPH3225A&search_term=None | 
+ | DS3231SN# | 1 | https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=99048&manufacturer=Analog%20Devices&part_name=DS3231SN#&search_term=None | 
  | ESP32-C6-WROOM-1-N8 | 1 | https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=eda | 
  | ESP32_WROVER_AVX---SD0805S020S1R0_AVX_ SD0805S020S1R0_0_0AVX_SD0805S020S1R0_0_0 | 2 | https://eu.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D | 
  | ESP32_WROVER_BME680_BME680 | 1 | https://www.snapeda.com/parts/BME680/Bosch/view-part/?welcome=home | 
