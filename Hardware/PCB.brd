@@ -1196,7 +1196,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1_BAT1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="EAGLE-LTSPICE_C0402" value="" x="111.76" y="36.83" smashed="yes" rot="R270">
+<element name="C1_BAT1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="EAGLE-LTSPICE_C0402" value="4.7uF" x="111.76" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="112.395" y="40.005" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="6.35" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="6.35" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1844,104 +1844,104 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <attribute name="POPULARITY" value="3" x="12.7" y="109.22" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="68.1799" y="8.89" size="0.02" layer="27" rot="R180"/>
 </element>
-<element name="TP1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="12.7" y="76.2" smashed="yes">
+<element name="TX" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="12.7" y="76.2" smashed="yes">
 <attribute name="NAME" x="11.7" y="77.25" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="105.41" y="-19.05" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="12.7" y="73.66" size="1" layer="37"/>
 <attribute name="VALUE" x="11.938" y="75.184" size="0.0254" layer="27"/>
 </element>
-<element name="TP10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="43.18" y="58.42" smashed="yes">
+<element name="SCK" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="43.18" y="58.42" smashed="yes">
 <attribute name="NAME" x="42.18" y="59.47" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="86.36" y="-36.83" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="43.18" y="55.88" size="1" layer="37"/>
 <attribute name="VALUE" x="42.418" y="57.404" size="0.0254" layer="27"/>
 </element>
-<element name="TP11" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="10.16" y="76.2" smashed="yes">
-<attribute name="NAME" x="9.16" y="77.25" size="1.27" layer="25"/>
+<element name="EPD_BUSY" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="10.16" y="76.2" smashed="yes">
+<attribute name="NAME" x="1.54" y="77.25" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="97.79" y="-19.05" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="10.16" y="73.66" size="1" layer="37"/>
 <attribute name="VALUE" x="9.398" y="75.184" size="0.0254" layer="27"/>
 </element>
-<element name="TP12" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="21.59" y="48.26" smashed="yes">
+<element name="EPD_CS" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="21.59" y="48.26" smashed="yes">
 <attribute name="NAME" x="20.59" y="49.31" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="71.12" y="-46.99" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="21.59" y="45.72" size="1" layer="37"/>
 <attribute name="VALUE" x="20.828" y="47.244" size="0.0254" layer="27"/>
 </element>
-<element name="TP13" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="13.97" y="48.26" smashed="yes">
-<attribute name="NAME" x="12.97" y="49.31" size="1.27" layer="25"/>
+<element name="EPD_DC" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="13.97" y="48.26" smashed="yes">
+<attribute name="NAME" x="6.62" y="45.5" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="69.85" y="-46.99" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="13.97" y="45.72" size="1" layer="37"/>
 <attribute name="VALUE" x="13.208" y="47.244" size="0.0254" layer="27"/>
 </element>
-<element name="TP14" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="19.05" y="72.39" smashed="yes">
-<attribute name="NAME" x="18.05" y="73.44" size="1.27" layer="25"/>
+<element name="EPD_RST" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="19.05" y="72.39" smashed="yes">
+<attribute name="NAME" x="11.7" y="73.44" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="81.28" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="19.05" y="69.85" size="1" layer="37"/>
 <attribute name="VALUE" x="18.288" y="71.374" size="0.0254" layer="27"/>
 </element>
-<element name="TP15" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="21.59" y="72.39" smashed="yes">
+<element name="EPD_3V3_C" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="21.59" y="72.39" smashed="yes">
 <attribute name="NAME" x="20.59" y="73.44" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="90.17" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="21.59" y="69.85" size="1" layer="37"/>
 <attribute name="VALUE" x="20.828" y="71.374" size="0.0254" layer="27"/>
 </element>
-<element name="TP16" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="106.68" y="38.1" smashed="yes">
+<element name="VBUS" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="106.68" y="38.1" smashed="yes">
 <attribute name="NAME" x="105.68" y="39.15" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="181.61" y="-57.15" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="106.68" y="35.56" size="1" layer="37"/>
 <attribute name="VALUE" x="105.918" y="37.084" size="0.0254" layer="27"/>
 </element>
-<element name="TP17" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="16.51" y="48.26" smashed="yes">
-<attribute name="NAME" x="15.51" y="49.31" size="1.27" layer="25"/>
+<element name="INT_RTC" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="16.51" y="48.26" smashed="yes">
+<attribute name="NAME" x="14.24" y="45.5" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="97.79" y="-46.99" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="16.51" y="45.72" size="1" layer="37"/>
 <attribute name="VALUE" x="15.748" y="47.244" size="0.0254" layer="27"/>
 </element>
-<element name="TP2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="15.24" y="76.2" smashed="yes">
+<element name="RX" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="15.24" y="76.2" smashed="yes">
 <attribute name="NAME" x="14.24" y="77.25" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="31.75" y="-24.13" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="15.24" y="73.66" size="1" layer="37"/>
 <attribute name="VALUE" x="14.478" y="75.184" size="0.0254" layer="27"/>
 </element>
-<element name="TP3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="123.19" y="63.5" smashed="yes">
+<element name="VBAT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="123.19" y="63.5" smashed="yes">
 <attribute name="NAME" x="122.19" y="64.55" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="144.78" y="-36.83" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="123.19" y="60.96" size="1" layer="37"/>
 <attribute name="VALUE" x="122.428" y="62.484" size="0.0254" layer="27"/>
 </element>
-<element name="TP4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="86.36" y="104.14" smashed="yes">
+<element name="GND" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="86.36" y="104.14" smashed="yes">
 <attribute name="NAME" x="85.36" y="105.19" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="113.03" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="86.36" y="101.6" size="1" layer="37"/>
 <attribute name="VALUE" x="85.598" y="103.124" size="0.0254" layer="27"/>
 </element>
-<element name="TP5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="86.36" y="107.8378" smashed="yes">
+<element name="GND'" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="86.36" y="107.8378" smashed="yes">
 <attribute name="NAME" x="85.36" y="108.8878" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="118.11" y="7.5078" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="86.36" y="105.2978" size="1" layer="37"/>
 <attribute name="VALUE" x="85.598" y="106.8218" size="0.0254" layer="27"/>
 </element>
-<element name="TP6" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="10.16" y="107.95" smashed="yes">
+<element name="3V3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="10.16" y="107.95" smashed="yes">
 <attribute name="NAME" x="9.16" y="109" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="46.99" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="10.16" y="105.41" size="1" layer="37"/>
 <attribute name="VALUE" x="9.398" y="106.934" size="0.0254" layer="27"/>
 </element>
-<element name="TP7" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="73.66" y="36.83" smashed="yes">
+<element name="EPD_3V3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="73.66" y="36.83" smashed="yes">
 <attribute name="NAME" x="72.66" y="37.88" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="115.57" y="-63.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="73.66" y="34.29" size="1" layer="37"/>
 <attribute name="VALUE" x="72.898" y="35.814" size="0.0254" layer="27"/>
 </element>
-<element name="TP8" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="6.35" y="107.95" smashed="yes">
-<attribute name="NAME" x="5.35" y="109" size="1.27" layer="25"/>
+<element name="MISO" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="6.35" y="107.95" smashed="yes">
+<attribute name="NAME" x="4.08" y="105.19" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="53.34" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="6.35" y="105.41" size="1" layer="37"/>
 <attribute name="VALUE" x="5.588" y="106.934" size="0.0254" layer="27"/>
 </element>
-<element name="TP9" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="2.0922" y="107.95" smashed="yes">
-<attribute name="NAME" x="1.0922" y="109" size="1.27" layer="25"/>
+<element name="MOSI" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="TP20R" value="TPTP20R" x="2.0922" y="107.95" smashed="yes">
+<attribute name="NAME" x="-0.1778" y="109" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="2" x="54.1622" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="2.0922" y="105.41" size="1" layer="37"/>
 <attribute name="VALUE" x="1.3302" y="106.934" size="0.0254" layer="27"/>
@@ -2007,7 +2007,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/DS3231SN%23/Analog+Devices/view-part/?ref=snap" x="48.26" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="80.29476875" y="61.742790625" size="1.27276875" layer="27" rot="R270" align="top-left"/>
 </element>
-<element uuid="2882400031" name="C3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="RCL_CT3528" value="" x="125.73" y="36.83" smashed="yes" rot="R270">
+<element uuid="2882400031" name="C3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.umLBlmUGSHSmbOtK5Xwc5Q" package="RCL_CT3528" value="100uF" x="125.73" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="127.635" y="39.37" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="125.73" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="125.73" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2090,8 +2090,8 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="U4" pad="1"/>
 <contactref element="U4" pad="6"/>
 <contactref element="U4" pad="4"/>
-<contactref element="TP4" pad="TP"/>
-<contactref element="TP5" pad="TP"/>
+<contactref element="GND" pad="TP"/>
+<contactref element="GND'" pad="TP"/>
 <contactref element="U1" pad="4"/>
 <contactref element="J3" pad="1"/>
 <contactref element="D12" pad="1"/>
@@ -2643,7 +2643,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="C1_BAT" pad="1"/>
 <contactref element="MCP73831" pad="4"/>
 <contactref element="CHG_LED" pad="A"/>
-<contactref element="TP16" pad="TP"/>
+<contactref element="VBUS" pad="TP"/>
 <wire x1="126.589" y1="40.8575" x2="126.10425" y2="40.8575" width="0.3" layer="1"/>
 <wire x1="129.4975" y1="37.949" x2="126.589" y2="40.8575" width="0.3" layer="1"/>
 <wire x1="126.10425" y1="40.8575" x2="126.05" y2="40.91" width="0.3" layer="1"/>
@@ -2747,7 +2747,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="C2_BAT" pad="1"/>
 <contactref element="U4" pad="3"/>
 <contactref element="U4" pad="2"/>
-<contactref element="TP3" pad="TP"/>
+<contactref element="VBAT" pad="TP"/>
 <wire x1="134.899" y1="47.2285" x2="134.899" y2="46.74375" width="0.3" layer="1"/>
 <wire x1="134.899" y1="46.74375" x2="134.905" y2="46.74" width="0.3" layer="1"/>
 <wire x1="134.899" y1="47.2285" x2="134.905" y2="47.24" width="0.3" layer="1"/>
@@ -2812,7 +2812,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R_CL1" pad="2"/>
 <contactref element="Q2" pad="3"/>
-<contactref element="TP6" pad="TP"/>
+<contactref element="3V3" pad="TP"/>
 <contactref element="U1" pad="7"/>
 <contactref element="U1" pad="3"/>
 <contactref element="U1" pad="8"/>
@@ -3004,7 +3004,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="J4" pad="P5"/>
 <contactref element="U2" pad="6"/>
 <contactref element="J1" pad="13"/>
-<contactref element="TP10" pad="TP"/>
+<contactref element="SCK" pad="TP"/>
 <contactref element="U1" pad="6"/>
 <contactref element="D10" pad="2"/>
 <contactref element="R6" pad="2"/>
@@ -3070,7 +3070,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <signal name="MISO">
 <contactref element="J4" pad="P7"/>
 <contactref element="U2" pad="27"/>
-<contactref element="TP8" pad="TP"/>
+<contactref element="MISO" pad="TP"/>
 <contactref element="U1" pad="2"/>
 <contactref element="D12" pad="2"/>
 <contactref element="R8" pad="2"/>
@@ -3138,7 +3138,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="J4" pad="P3"/>
 <contactref element="U2" pad="7"/>
 <contactref element="J1" pad="14"/>
-<contactref element="TP9" pad="TP"/>
+<contactref element="MOSI" pad="TP"/>
 <contactref element="U1" pad="5"/>
 <contactref element="D11" pad="2"/>
 <contactref element="R7" pad="2"/>
@@ -3235,7 +3235,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <signal name="EPD_DC">
 <contactref element="U2" pad="5"/>
 <contactref element="J1" pad="11"/>
-<contactref element="TP13" pad="TP"/>
+<contactref element="EPD_DC" pad="TP"/>
 <wire x1="86.90875" y1="14.88875" x2="86.90875" y2="15.3735" width="0.15" layer="1"/>
 <wire x1="86.63175" y1="14.61175" x2="86.90875" y2="14.88875" width="0.15" layer="1"/>
 <wire x1="85.039" y1="14.61175" x2="86.63175" y2="14.61175" width="0.15" layer="16"/>
@@ -3262,7 +3262,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <signal name="EPD_BUSY">
 <contactref element="U2" pad="26"/>
 <contactref element="J1" pad="9"/>
-<contactref element="TP11" pad="TP"/>
+<contactref element="EPD_BUSY" pad="TP"/>
 <wire x1="87.9475" y1="15.9275" x2="87.9475" y2="15.44275" width="0.15" layer="1"/>
 <wire x1="87.6705" y1="16.2045" x2="87.9475" y2="15.9275" width="0.15" layer="1"/>
 <wire x1="87.1165" y1="16.2045" x2="87.6705" y2="16.2045" width="0.15" layer="16"/>
@@ -3310,7 +3310,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </signal>
 <signal name="INT_RTC">
 <contactref element="U2" pad="8"/>
-<contactref element="TP17" pad="TP"/>
+<contactref element="INT_RTC" pad="TP"/>
 <contactref element="U3" pad="3"/>
 <contactref element="R1_PINH1" pad="1"/>
 <wire x1="88.29375" y1="60.59375" x2="88.29375" y2="63.433" width="0.15" layer="1"/>
@@ -3376,7 +3376,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <signal name="EPD_RST">
 <contactref element="U2" pad="21"/>
 <contactref element="J1" pad="10"/>
-<contactref element="TP14" pad="TP"/>
+<contactref element="EPD_RST" pad="TP"/>
 <wire x1="87.3935" y1="15.85825" x2="87.3935" y2="15.44275" width="0.15" layer="1"/>
 <wire x1="86.77025" y1="16.4815" x2="87.3935" y2="15.85825" width="0.15" layer="1"/>
 <wire x1="73.47425" y1="16.4815" x2="86.77025" y2="16.4815" width="0.15" layer="16"/>
@@ -3463,8 +3463,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="137.73825" y1="47.71325" x2="136.90725" y2="47.71325" width="0.15" layer="1"/>
 <wire x1="148.95675" y1="36.49475" x2="137.73825" y2="47.71325" width="0.15" layer="1"/>
 <wire x1="148.95675" y1="12.94975" x2="148.95675" y2="14.127" width="0.15" layer="1"/>
-<wire x1="148.95675" y1="14.127" x2="148.95675" y2="21.329" width="0.15" layer="1"/>
-<wire x1="148.95675" y1="21.329" x2="148.95675" y2="36.49475" width="0.15" layer="1"/>
+<wire x1="148.95675" y1="36.46325" x2="148.95675" y2="36.49475" width="0.15" layer="1"/>
 <wire x1="136.90725" y1="47.71325" x2="136.875" y2="47.74" width="0.15" layer="1"/>
 <wire x1="148.95675" y1="12.94975" x2="148.99" y2="12.888" width="0.15" layer="1"/>
 <wire x1="148.40275" y1="5.6785" x2="148.54125" y2="5.6785" width="0.15" layer="1"/>
@@ -3481,7 +3480,9 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <wire x1="166.13075" y1="20.3595" x2="165.57675" y2="19.8055" width="0.15" layer="1"/>
 <wire x1="166.13075" y1="21.1905" x2="166.13075" y2="20.3595" width="0.15" layer="1"/>
 <wire x1="165.99225" y1="21.329" x2="166.13075" y2="21.1905" width="0.15" layer="1"/>
-<wire x1="148.95675" y1="21.329" x2="165.99225" y2="21.329" width="0.15" layer="1"/>
+<wire x1="148.95675" y1="14.127" x2="148.95675" y2="36.46325" width="0.15" layer="1"/>
+<wire x1="148.95675" y1="36.46325" x2="148.59" y2="36.83" width="0.15" layer="1"/>
+<wire x1="148.59" y1="36.83" x2="165.99225" y2="21.329" width="0.15" layer="1"/>
 <wire x1="165.29975" y1="19.8055" x2="165.2488" y2="19.8" width="0.15" layer="1"/>
 <wire x1="18.90525" y1="69.45775" x2="18.90525" y2="69.6655" width="0.15" layer="1"/>
 <wire x1="20.56725" y1="67.79575" x2="18.90525" y2="69.45775" width="0.15" layer="1"/>
@@ -3516,7 +3517,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="U2" pad="18"/>
 <contactref element="R_CL1" pad="1"/>
 <contactref element="Q2" pad="1"/>
-<contactref element="TP15" pad="TP"/>
+<contactref element="EPD_3V3_C" pad="TP"/>
 <wire x1="20.15175" y1="70.98125" x2="20.15175" y2="69.73475" width="0.3" layer="1"/>
 <wire x1="21.53675" y1="72.36625" x2="20.15175" y2="70.98125" width="0.3" layer="1"/>
 <wire x1="20.15175" y1="69.73475" x2="20.14" y2="69.71" width="0.3" layer="1"/>
@@ -3607,7 +3608,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </signal>
 <signal name="RX">
 <contactref element="U2" pad="24"/>
-<contactref element="TP2" pad="TP"/>
+<contactref element="RX" pad="TP"/>
 <wire x1="12.53425" y1="73.47425" x2="12.53425" y2="69.73475" width="0.15" layer="1"/>
 <wire x1="15.235" y1="76.175" x2="12.53425" y2="73.47425" width="0.15" layer="1"/>
 <wire x1="12.53425" y1="69.73475" x2="12.52" y2="69.71" width="0.15" layer="1"/>
@@ -3615,7 +3616,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </signal>
 <signal name="TX">
 <contactref element="U2" pad="25"/>
-<contactref element="TP1" pad="TP"/>
+<contactref element="TX" pad="TP"/>
 <wire x1="11.28775" y1="74.79" x2="11.28775" y2="69.73475" width="0.15" layer="1"/>
 <wire x1="12.67275" y1="76.175" x2="11.28775" y2="74.79" width="0.15" layer="1"/>
 <wire x1="11.28775" y1="69.73475" x2="11.25" y2="69.71" width="0.15" layer="1"/>
@@ -3674,7 +3675,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <signal name="EPD_CS">
 <contactref element="U2" pad="11"/>
 <contactref element="J1" pad="12"/>
-<contactref element="TP12" pad="TP"/>
+<contactref element="EPD_CS" pad="TP"/>
 <contactref element="D6" pad="2"/>
 <contactref element="R9" pad="2"/>
 <wire x1="20.15175" y1="49.65225" x2="20.15175" y2="52.14525" width="0.15" layer="1"/>
@@ -3753,7 +3754,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <contactref element="J1" pad="15"/>
 <contactref element="EPD_C5" pad="1"/>
 <contactref element="Q2" pad="2"/>
-<contactref element="TP7" pad="TP"/>
+<contactref element="EPD_3V3" pad="TP"/>
 <wire x1="84.9005" y1="15.44275" x2="84.485" y2="15.44275" width="0.3" layer="1"/>
 <wire x1="84.485" y1="15.44275" x2="84.46" y2="15.42" width="0.3" layer="1"/>
 <wire x1="84.9005" y1="15.44275" x2="84.96" y2="15.42" width="0.3" layer="1"/>
